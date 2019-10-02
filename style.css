@@ -4,8 +4,8 @@
 
 header .row {
     min-height: 70vh;
-    background-color: rgb(163, 215, 245);
-     background-size: cover;
+    background-image: url(Avion.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed; 
     align-items: center;
@@ -45,5 +45,45 @@ header .slogan{
 
 #presentation .media .span{
     color:black;
+    font-size: 3rem;
+    background-color: blue;
+    width: 4rem;
+    text-align: center;
     
+}
+
+#presentation .media{
+    padding: 0.5rem 1rem;
+    cursor:pointer;
+    transition: all .3s ease-in-out;
+    
+}
+
+#presentation .media:hover{
+    background-color: grey;
+    
+}
+
+.fondAvis{
+    min-height: calc(100vh - 50px);
+    background-image: url(Trip.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.avisClient{
+    min-height: calc(100vh - 50px);
+    background-color :#d3dae4;
+}
+
+.avisClient span{
+    font-size:5rem;
+    color:#17a2b8;
+}
+
+.avisClient h5{
+    font-size: 2rem;
+    color:#888;
 }
